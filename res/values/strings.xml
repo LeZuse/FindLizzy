@@ -1,0 +1,7 @@
+<resources>
+
+    <string name="app_name">FindLizzy</string>
+    <string name="location_service">Location service started</string>
+    <string name="location_service_name">Location service</string>
+
+</resources>
