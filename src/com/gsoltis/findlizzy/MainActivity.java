@@ -47,7 +47,14 @@ public class MainActivity extends PreferenceActivity
 		Intent i = new Intent(getApplicationContext(), LocationService.class);
 		if (start) {
 			Bundle extras = new Bundle();
-			extras.putString(LocationService.FIREBASE_REF, 
+			extras.putString(LocationService.FIREBASE_REF,
+					/* TODO: Change this to your own firebase location 
+					 * Make sure it matches what you put in calls to new Firebase(),
+					 * like in findlizzy.html.
+					 * 
+					 * Also note that this url requires the .json suffix, since 
+					 * it uses the Firebase REST api.
+					 */
 					"http://demo.firebase.com/trailblazer/location/lizzy.json");
 			extras.putString(LocationService.NOTIFICATION_STARTUP, 
 					getText(R.string.location_service).toString());
