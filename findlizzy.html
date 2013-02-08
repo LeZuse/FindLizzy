@@ -49,7 +49,7 @@
 				var map = initializeMap();
 				/* TODO: Change this to your own firebase location. 
 				   Make sure it matches what you put in MainActivity.java  */
-				new Firebase('http://demo.firebase.com/trailblazer/location/lizzy')
+				new Firebase('https://trailblazer.firebaseio-demo.com/location/lizzy')
 						.on('value', function(snap) {
 					var map_data = snap.val();
 					updateMap(map_data, map);

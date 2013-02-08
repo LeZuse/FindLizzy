@@ -55,7 +55,8 @@ public class MainActivity extends PreferenceActivity
 					 * Also note that this url requires the .json suffix, since 
 					 * it uses the Firebase REST api.
 					 */
-					"http://demo.firebase.com/trailblazer/location/lizzy.json");
+					"https://trailblazer.firebaseio-demo.com/location/lizzy.json");
+			extras.putLong(LocationService.LOCATION_POLL_INTERVAL, 15000);
 			extras.putString(LocationService.NOTIFICATION_STARTUP, 
 					getText(R.string.location_service).toString());
 			extras.putString(LocationService.NOTIFICATION_TEXT, 
