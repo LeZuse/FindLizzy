@@ -1,4 +1,4 @@
-A sample app showing off [Trailblazer](https://github.com/gsoltis/Trailblazer) and [Firebase](http://www.firebase.com)
+A sample app showing off [Trailblazer](https://github.com/firebase/Trailblazer) and [Firebase](http://www.firebase.com)
 ======================================================================================================================
 
 This app demonstrates using the Trailblazer library to track a user's location. The user can turn the service on and off with a checkbox, and the app puts an icon in the notification bar when it is running.
